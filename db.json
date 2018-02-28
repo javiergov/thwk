@@ -1,0 +1,19 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "title": "Artists"
+    },
+    {
+      "id": 2,
+      "title": "Albums"
+    },
+    {
+      "id": 3,
+      "title": "Genre"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
