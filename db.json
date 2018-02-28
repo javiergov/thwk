@@ -1,44 +1,4 @@
 {
-  "music_albums": [
-    {
-      "id": "id_mmilk",
-      "name": "Mother's Milk",
-      "song_ids": [
-        2,
-        3
-      ]
-    },
-    {
-      "id": "id_binau",
-      "name": "Binaural",
-      "song_ids": [
-        4,
-        5
-      ]
-    },
-    {
-      "id": "id_facelift",
-      "name": "Facelift",
-      "song_ids": [
-        6,
-        7
-      ]
-    }
-  ],
-  "tags": [
-    {
-      "id": "music_artists",
-      "title": "Artists"
-    },
-    {
-      "id": "music_albums",
-      "title": "Albums"
-    },
-    {
-      "id": "music_genre",
-      "title": "Genre"
-    }
-  ],
   "music_genre": [
     {
       "id": "id_rock",
@@ -72,6 +32,43 @@
       ]
     }
   ],
+  "multi": [
+    {
+      "description": "Lyrics: Layne Staley, Music: Jerry Cantrell",
+      "id": 8,
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/a/a2/Man_in_the_Box_by_Alice_in_Chains_US_commercial_cassette.jpg",
+      "name": "Man in the box",
+      "type": "basic"
+    },
+    {
+      "name": "Higher Ground",
+      "id": 2,
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Red_hot_chili_peppers_higher_ground.png",
+      "description": "original by Stevie Wonder",
+      "type": "artist"
+    },
+    {
+      "name": "Light Years",
+      "id": 5,
+      "cover_url": "https://upload.wikimedia.org/wikipedia/en/f/f3/PearlJam-Binaural.jpg",
+      "description": "Stone Gossard, Mike McCready, Vedder",
+      "type": "stream"
+    }
+  ],
+  "tags": [
+    {
+      "id": "music_artists",
+      "title": "Artists"
+    },
+    {
+      "id": "music_albums",
+      "title": "Albums"
+    },
+    {
+      "id": "music_genre",
+      "title": "Genre"
+    }
+  ],
   "music_artists": [
     {
       "id": "art_rhcp",
@@ -102,7 +99,33 @@
     }
   ],
   "profile": {
-    "name": "typicode",
-    "id": "typicode_id"
-  }
+    "name": "ThoughtWorks",
+    "id": "id_thoughtworks"
+  },
+  "music_albums": [
+    {
+      "id": "id_mmilk",
+      "name": "Mother's Milk",
+      "song_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "id_binau",
+      "name": "Binaural",
+      "song_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "id_facelift",
+      "name": "Facelift",
+      "song_ids": [
+        6,
+        7
+      ]
+    }
+  ]
 }
