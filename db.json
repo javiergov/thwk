@@ -1,19 +1,108 @@
 {
+  "music_albums": [
+    {
+      "id": "id_mmilk",
+      "name": "Mother's Milk",
+      "song_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "id_binau",
+      "name": "Binaural",
+      "song_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "id_facelift",
+      "name": "Facelift",
+      "song_ids": [
+        6,
+        7
+      ]
+    }
+  ],
   "tags": [
     {
-      "id": 1,
+      "id": "music_artists",
       "title": "Artists"
     },
     {
-      "id": 2,
+      "id": "music_albums",
       "title": "Albums"
     },
     {
-      "id": 3,
+      "id": "music_genre",
       "title": "Genre"
     }
   ],
+  "music_genre": [
+    {
+      "id": "id_rock",
+      "name": "Rock",
+      "song_ids": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "name": "Country",
+      "id": "id_country",
+      "song_ids": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "Hip Hop",
+      "id": "id_hiphop",
+      "song_ids": [
+        21,
+        22,
+        23,
+        26
+      ]
+    }
+  ],
+  "music_artists": [
+    {
+      "id": "art_rhcp",
+      "name": "Red Hot Chili Peppers",
+      "song_ids": [
+        2,
+        3,
+        "4"
+      ]
+    },
+    {
+      "id": "art_pearlj",
+      "song_ids": [
+        5,
+        6,
+        "7"
+      ],
+      "name": "Pearl Jam"
+    },
+    {
+      "id": "art_alice",
+      "song_ids": [
+        8,
+        9,
+        "10"
+      ],
+      "name": "Alice in Chains"
+    }
+  ],
   "profile": {
-    "name": "typicode"
+    "name": "typicode",
+    "id": "typicode_id"
   }
 }
